@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require './game'
+require_relative "game"
 (puts("Usage: war <p1> <p2>"); exit(1)) unless ARGV.size == 2
 game = Game.new(ARGV[0], ARGV[1])
 while game.valid? do

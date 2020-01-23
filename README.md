@@ -8,8 +8,9 @@ ruby >= 2.5
 
 ## Installation
 
-`git clone https://github.com/usiegl00/war.git
-cd war`
+```bash
+git clone https://github.com/usiegl00/war.git
+```
 
 ## Usage
 
